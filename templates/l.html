@@ -1,0 +1,6 @@
+<p id="token" hidden="true">{{token}}</p>
+<script>
+    const t = document.getElementById('token').textContent
+    document.cookie = `token=${t};`
+    location.href = "./"
+</script>
